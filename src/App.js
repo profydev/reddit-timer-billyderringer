@@ -5,7 +5,7 @@ import './index.css';
 function App() {
   return (
     <div>
-      App Placeholder
+      Home Page
     </div>
   );
 }
