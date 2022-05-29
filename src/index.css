@@ -1,0 +1,45 @@
+/*
+set variables
+*/
+:root {
+  /*fonts*/
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-family-secondary: 'Bitter', serif;
+
+  /*colors*/
+  --copy-color-primary: #93918F;
+  --copy-color-secondary: #000000;
+  --orange: #FDB755;
+  --white: #FFFFFF;
+}
+
+/*
+set global styles
+*/
+body {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  color: var(--copy-color-primary);
+}
+
+h1, h2 {
+  font-family: var(--font-family-secondary);
+  color: var(--copy-color-secondary);
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+button {
+  background: var(--orange);
+  color: var(--white);
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  padding:5px 15px;
+}
